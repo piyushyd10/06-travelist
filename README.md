@@ -1,16 +1,16 @@
-usePopcorn - Movie Management App
+Far Away - Trip Item Planner
 
-"usePopcorn" is a React.js application that provides users with an interactive way to manage their movie watchlists and ratings. This app allows users to search for movies, add them to a watchlist, rate them, and view detailed information, such as release date, actors, director, and IMDb ratings.
+"Far Away" is a React.js-based application designed to help users plan and organize their trips efficiently. With this app, users can create a comprehensive packing list, specify item quantities, and easily keep track of what they have packed.
 Features:
 
-    Search Movies: Fetch movie data using the OMDb API with React's useEffect hook.
-    Watchlist Management: Add movies to your watchlist and view the average IMDb rating, user rating, and duration.
-    User Ratings: Rate movies and see your average rating across all rated movies. Once rated, a movie cannot be added again, and the app will notify you if a movie has already been rated.
-    Remove Movies: Easily remove movies from your watchlist.
-    Data Persistence: Uses React state management to store watchedMovies, movieList, etc.
+    Item Management: Add items to the packing list with specified quantities.
+    Packing Status: Click on items to mark them as packed.
+    Clear List: Easily clear the entire list with a single button.
+    Sorting Options: Sort items by input order, alphabetical order, or by packed status.
+    State Management: Utilizes React's state management to handle item and packing list data dynamically.
 
 Technology Stack:
 
     Frontend: React.js,Tailwind CSS
 
-Explore the app, contribute, and provide feedback!
+Feel free to clone, contribute, or provide feedback!
